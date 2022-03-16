@@ -1,0 +1,43 @@
+Trab.h:
+- Qual a estrutura de dados utilizada
+   - Grafo
+   - Não direcionado
+   - Sem peso
+- Características do grafo
+   - Fixo(Nostromo)
+   - Utiliza matriz de adjacência
+- Struct do grafo
+   - Grafo->info
+   - Grafo->cor
+   - Grafo->pred
+- Lista
+   - Principal motivo
+   - Utilizações
+
+Trab.c:
+- Busca em largura
+   - Como funciona
+   - Adaptações
+   - Pontos chaves
+- Turno Ripley
+   - Utilização dos predecessores
+   - Checagem de alien no próximo vértice do caminho
+   - Modificação do lugar da Ripley
+- Turno Alien
+   - Modo Hardcore e normal
+   - Utilização dos predecessores
+   - Modificação do lugar do alien
+- Alguma outra função
+   - criaGrafo
+   - insereAresta
+   - criaFila
+
+Grafotrab.c:
+- Estatística
+   - Taxa de sobrevivência em casa modo
+- Limitantes
+   - Spawn Ripley
+   - Spawn Alien
+   - Ripley != 6 || Grafo->info[Ripley] != 3
+- definição de morta ou viva
+- Print do caminho
